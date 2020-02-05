@@ -23,6 +23,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\baseline\src\Baseline\Baseline.csproj" />
     <ProjectReference Include="..\Marten\Marten.csproj" />
     <ProjectReference Include="..\Marten.Testing.OtherAssembly\Marten.Testing.OtherAssembly.csproj" />
   </ItemGroup>
