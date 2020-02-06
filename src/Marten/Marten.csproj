@@ -3,7 +3,6 @@
         <Description>Postgresql as a Document Db and Event Store for .Net Development</Description>
         <VersionPrefix>3.10.0</VersionPrefix>
         <Authors>Jeremy D. Miller;Babu Annamalai;Oskar Dudycz;Joona-Pekka Kokko</Authors>
-        <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
         <AssemblyName>Marten</AssemblyName>
         <PackageId>Marten</PackageId>
         <PackageIconUrl>http://jasperfx.github.io/marten/content/images/emblem.png</PackageIconUrl>
@@ -17,6 +16,7 @@
         <GenerateAssemblyFileVersionAttribute>true</GenerateAssemblyFileVersionAttribute>
         <GenerateAssemblyInformationalVersionAttribute>true</GenerateAssemblyInformationalVersionAttribute>
         <LangVersion>7.2</LangVersion>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
     </PropertyGroup>
     <PropertyGroup Condition="'$(OS)' != 'Windows_NT' AND '$(TargetFramework)'== 'net461'">
         <FrameworkPathOverride>$(NuGetPackageRoot)microsoft.targetingpack.netframework.v4.6.1/1.0.1/lib/net461/</FrameworkPathOverride>
